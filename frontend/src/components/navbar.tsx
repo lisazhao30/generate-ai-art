@@ -6,7 +6,7 @@ import '../styling/main.css'
 const Navigation = () => {
 
     return (
-        <div className="navbar bg-base-100 flex justify-end">
+        <div className="navbar bg-base-100 flex">
             <div className="flex-none">
                 <ul className="menu menu-horizontal p-0">
                     <li><Link to='/'>Home</Link></li>
